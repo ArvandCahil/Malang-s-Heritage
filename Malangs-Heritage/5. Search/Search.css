@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Dosis;
+    src: url(./Aset/Dosis.ttf);
+}
+
+body {
+    font-family: Dosis;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo {
+    width: 3rem;
+    height: 3rem;
+    flex-shrink: 0;
+    margin-top: 0.75rem;
+    margin-bottom: 0.625rem;
+    margin-left: 1.25rem;
+    margin-right: 0.625rem;
+    position: relative;
+}
+
+.judul {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.nav-bar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 5%;
+    margin: 0;
+    padding: 0;
+    font-family: Dosis;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #000000;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.d-flex {
+    padding-left: 20rem;
+    display: flex;
+    width: 50rem;
+    position: relative;
+}
+
+.d-flex-guest {
+    display: flex;
+    padding-left: 20rem;
+    width: 50rem;
+    position: relative;
+}
+
+.form-control:hover {
+    border-color: #007BFF; 
+}
+
+.btn-outline-success {
+    color: #000000; 
+    border-color: #007BFF; 
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+.nav-home {
+    color: #000;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-kontak,
+.nav-login,
+.nav-about,
+.nav-bookmark {
+    color: #000000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+}
+
+.nav-profil {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.hasil {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.gambar {
+    width: 15rem;
+    height: 10rem;
+}
+
+.deskripsi {
+    margin-left: 20px;
+}
+
+.judul-artikel {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rangkuman{
+    font-size: 16px;
+}
+
+footer {
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    margin-top: 10rem;
+    border-top: 1.5px solid #000000;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: ce;
+    margin: 0 auto;
+    width: 5rem;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.footer-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer-links {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.footer-credit {
+    margin-top: auto;
+    border-top: 1px solid #ccc;
+    font-size: 1rem;
+}

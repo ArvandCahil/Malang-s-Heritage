@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Dosis;
+    src: url(./Aset/Dosis.ttf);
+}
+
+body {
+    font-family: Dosis;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 3rem;
+    height: 3rem;
+    flex-shrink: 0;
+    margin-top: 0.75rem;
+    margin-bottom: 0.625rem;
+    margin-left: 1.25rem;
+    margin-right: 0.625rem;
+    position: relative;
+}
+
+.judul {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.nav-bar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 5%;
+    margin: 0;
+    padding: 0;
+    font-family: Dosis;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #000000;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.d-flex {
+    width: 45rem;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    position: relative;
+}
+
+.nav-home {
+    color: #000;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-kontak,
+.nav-login,
+.nav-about,
+.nav-bookmark {
+    color: #000000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+}
+
+.form-login {
+    display: flex;
+    justify-content: center;
+    margin-top: -3rem; 
+    position: relative;
+}
+
+.bg-login {
+    margin-top: 3rem; 
+}
+
+.login-container {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.daftar {
+    margin-top: 6rem;
+    position: absolute;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+input {
+    display: flex;
+    width: 230px;
+    height: 20px;
+    padding: 10px 15px;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background: #ffffff;
+    font-size: 16px;
+}
+
+label {
+    font-size: 16px;
+}
+
+button {
+    margin-top: 5px;
+    width: 260px;
+    height: 45px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #64CFDD;
+    font-size: 16px;
+    color: #000000; 
+    border: none;
+    cursor: pointer;
+}

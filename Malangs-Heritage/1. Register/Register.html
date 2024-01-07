@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" class="jsx-2992227597">
+    <title>Malang's Heritage</title>
+    <link rel="stylesheet" type="text/css" href="./Register.css">
+</head>
+
+<div class="nav-bar">
+    <div class="nav-container">
+        <img class="logo" src="./Gambar/Logo_Fix.png">
+        <span class="judul">Malang's Heritage</span>
+        <a href="../3. Beranda/Beranda-Guest.html" class="nav-home">Home</a>
+        <a href="../2. Login/Login.html" class="nav-login">Login</a>
+        <a href="../9. About/About-Guest.php" class="nav-about">About</a>
+    </div>
+</div>
+
+<div class="form-login">
+    <div class="bg-login">
+        <svg xmlns="http://www.w3.org/2000/svg" width="600" height="660" viewBox="0 0 600 665" fill="none">
+            <g filter="url(#filter0_d_21_150)">
+                <path
+                    d="M4 50C4 22.3858 26.3858 0 54 0H554C581.614 0 604 22.3858 604 50V607C604 634.614 581.614 657 554 657H54C26.3858 657 4 634.614 4 607V50Z"
+                    fill="#F1EFEF">
+                </path>
+            </g>
+            <defs>
+                <filter id="filter0_d_21_150" x="0" y="0" width="600" height="665" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"></feColorMatrix>
+                    <feOffset dy="4"></feOffset>
+                    <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                    <feComposite in2="hardAlpha" operator="out"></feComposite>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_21_150"></feBlend>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_21_150" result="shape"></feBlend>
+                </filter>
+            </defs>
+        </svg>
+    </div>
+    <p class="daftar">Daftar</p>
+    <div class="login-container">
+        <form action="../PHP/Akun.php" method="post">
+            <br><br><br><br><br><br><br><br>
+            <label for="nama"><b>Nama</b></label>
+            <br>
+            <input type="text" name="nama" placeholder="Masukkan Nama" required="">
+            <br>
+            <label for="email"><b>Email</b></label>
+            <br>
+            <input type="email" name="email" placeholder="Masukkan Email" required="">
+            <br>
+            <label for="username"><b>Username</b></label>
+            <br>
+            <input type="text" name="username" placeholder="Masukkan Username" required="">
+            <br>
+            <label for="username"><b>Password</b></label>
+            <br>
+            <input type="password" name="password" placeholder="Masukkan Password" required="">
+            <br>
+            <label for="password"><b>Password</b></label>
+            <br>
+            <input type="password" name="password" placeholder="Konfirmasi Password" required="">
+            <br>
+            <button type="submit"><b>Daftar</b></button>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
